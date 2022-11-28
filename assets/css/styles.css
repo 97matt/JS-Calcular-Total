@@ -1,0 +1,81 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.card img {
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.card input {
+    font-size: 30px;
+}
+
+.card #cantidad {
+    margin-bottom: 20px;
+}
+
+.card button {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: white;
+    background-color: rgb(164, 164, 6);
+    border: 3px solid black;
+    border-radius: 6%;
+    cursor: pointer;
+}
+
+.card button:hover {
+    opacity: 0.9;
+}
+
+.card #precio {
+    font-size: 40px;
+}
+
+.card p {
+    font-size: 40px;
+}
+
+.card {
+    width: 420px;
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 50px;
+    border-radius: 3%;
+    background-color: rgb(90, 145, 38);
+    color: white;
+}
+
+.outputItems {
+    font-size: 30px;
+}
+
+.outputCantidad {
+    margin-top: 10px;
+}
+
+.outputColor {
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    border-radius: 50%;
+    margin-top: 6px;
+    margin-left: 6px;
+    background-color: black;
+}
+
+.outputFlex {
+    display: flex;
+    margin-top: 10px;
+}
